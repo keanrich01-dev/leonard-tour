@@ -1,0 +1,15 @@
+{{ c.greeting }}
+
+{% for p in c.paragraphs %}{{ p }}
+
+{% endfor %}{% for n in c.notices %}* {{ n }}
+
+{% endfor %}{% for label, value in c.rows %}{{ label }}: {{ value }}
+{% endfor %}{% if c.rows %}
+{% endif %}{% if c.cta %}{{ c.cta[0] }}: {{ c.cta[1] }}
+
+{% endif %}{{ c.closing }}
+
+--
+{{ company }}
+{{ c.footer }}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="{{ c.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>{{ c.subject }}</title>
+</head>
+<body style="margin:0;padding:0;background:#f3efe6;">
+<div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">{{ c.preheader }}</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f3efe6;">
+<tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+<tr><td style="background:#1f3d2b;padding:20px 28px;border-radius:10px 10px 0 0;font-family:{{ font }};font-size:20px;font-weight:bold;letter-spacing:.5px;color:#f5e6c4;">{{ company }}</td></tr>
+<tr><td style="background:#ffffff;padding:28px;font-family:{{ font }};font-size:16px;line-height:1.55;color:#222222;">
+<p style="margin:0 0 16px;">{{ c.greeting }}</p>
+{% for p in c.paragraphs %}<p style="margin:0 0 14px;">{{ p }}</p>
+{% endfor %}{% for n in c.notices %}<div style="margin:0 0 18px;padding:12px 14px;border-left:4px solid #c8963e;background:#fbf5e6;">{{ n }}</div>
+{% endfor %}{% if c.rows %}<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:6px 0 4px;">
+{% for label, value in c.rows %}<tr><td style="padding:8px 0;border-bottom:1px solid #eeeeee;color:#6b6b6b;width:42%;vertical-align:top;">{{ label }}</td><td style="padding:8px 0;border-bottom:1px solid #eeeeee;font-weight:bold;vertical-align:top;">{{ value }}</td></tr>
+{% endfor %}</table>{% endif %}
+{% if c.cta %}<table role="presentation" cellpadding="0" cellspacing="0" style="margin:24px 0;"><tr><td style="background:#c8963e;border-radius:6px;"><a href="{{ c.cta[1] }}" style="display:inline-block;padding:13px 26px;color:#1f3d2b;text-decoration:none;font-weight:bold;font-family:{{ font }};">{{ c.cta[0] }}</a></td></tr></table>{% endif %}
+<p style="margin:18px 0 0;">{{ c.closing }}</p>
+</td></tr>
+<tr><td style="padding:16px 28px;font-family:{{ font }};font-size:13px;line-height:1.5;color:#777777;text-align:center;">{{ c.footer }}</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>

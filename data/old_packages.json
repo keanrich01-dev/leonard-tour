@@ -1,0 +1,1815 @@
+
+[
+    {
+        "id": "camping-7days",
+        "title": "7-Day Tanzania Camping Safari",
+        "route": "Arusha, Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/serengeti.jpg",
+        "category": "safari",
+        "type": "camping",
+        "days": 7,
+        "badge": "popular",
+        "price": "from $1,850",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Upon arrival at Kilimanjaro International Airport, you will be met by our representative and transferred to your hotel in Arusha for safari briefing and overnight stay."
+            },
+            {
+                "day": 2,
+                "title": "Arusha to Tarangire National Park",
+                "description": "After breakfast, drive to Tarangire National Park for game drives. The park is famous for its large elephant herds and ancient baobab trees."
+            },
+            {
+                "day": 3,
+                "title": "Tarangire to Serengeti National Park",
+                "description": "Depart Tarangire and drive through the scenic Ngorongoro highlands to Serengeti National Park for afternoon game viewing."
+            },
+            {
+                "day": 4,
+                "title": "Full Day Serengeti Game Drives",
+                "description": "Enjoy a full day of game drives in Serengeti, home to the Big Five and the famous wildebeest migration."
+            },
+            {
+                "day": 5,
+                "title": "Serengeti to Ngorongoro Conservation Area",
+                "description": "Morning game drive in Serengeti followed by transfer to Ngorongoro Conservation Area with stunning crater views."
+            },
+            {
+                "day": 6,
+                "title": "Ngorongoro Crater Tour",
+                "description": "Descend into the Ngorongoro Crater for a half-day game drive. Spot rhinos, lions, hippos and many bird species."
+            },
+            {
+                "day": 7,
+                "title": "Ngorongoro to Arusha – Departure",
+                "description": "After breakfast, drive back to Arusha where your safari ends with transfer to the airport or hotel."
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "camping-7days",
+        "title": "7-Day Tanzania Camping Safari",
+        "route": "Arusha, Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/serengeti.jpg",
+        "category": "safari",
+        "type": "camping",
+        "days": 7,
+        "badge": "popular",
+        "price": "from $1,850",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Upon arrival at Kilimanjaro International Airport, you will be met by our representative and transferred to your hotel in Arusha for safari briefing and overnight stay."
+            },
+            {
+                "day": 2,
+                "title": "Arusha to Tarangire National Park",
+                "description": "After breakfast, drive to Tarangire National Park for game drives. The park is famous for its large elephant herds and ancient baobab trees."
+            },
+            {
+                "day": 3,
+                "title": "Tarangire to Serengeti National Park",
+                "description": "Depart Tarangire and drive through the scenic Ngorongoro highlands to Serengeti National Park for afternoon game viewing."
+            },
+            {
+                "day": 4,
+                "title": "Full Day Serengeti Game Drives",
+                "description": "Enjoy a full day of game drives in Serengeti, home to the Big Five and the famous wildebeest migration."
+            },
+            {
+                "day": 5,
+                "title": "Serengeti to Ngorongoro Conservation Area",
+                "description": "Morning game drive in Serengeti followed by transfer to Ngorongoro Conservation Area with stunning crater views."
+            },
+            {
+                "day": 6,
+                "title": "Ngorongoro Crater Tour",
+                "description": "Descend into the Ngorongoro Crater for a half-day game drive. Spot rhinos, lions, hippos and many bird species."
+            },
+            {
+                "day": 7,
+                "title": "Ngorongoro to Arusha – Departure",
+                "description": "After breakfast, drive back to Arusha where your safari ends with transfer to the airport or hotel."
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "camping-7days",
+        "title": "7-Day Tanzania Camping Safari",
+        "route": "Arusha, Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/serengeti.jpg",
+        "category": "safari",
+        "type": "camping",
+        "days": 7,
+        "badge": "popular",
+        "price": "from $1,850",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Upon arrival at Kilimanjaro International Airport, you will be met by our representative and transferred to your hotel in Arusha for safari briefing and overnight stay."
+            },
+            {
+                "day": 2,
+                "title": "Arusha to Tarangire National Park",
+                "description": "After breakfast, drive to Tarangire National Park for game drives. The park is famous for its large elephant herds and ancient baobab trees."
+            },
+            {
+                "day": 3,
+                "title": "Tarangire to Serengeti National Park",
+                "description": "Depart Tarangire and drive through the scenic Ngorongoro highlands to Serengeti National Park for afternoon game viewing."
+            },
+            {
+                "day": 4,
+                "title": "Full Day Serengeti Game Drives",
+                "description": "Enjoy a full day of game drives in Serengeti, home to the Big Five and the famous wildebeest migration."
+            },
+            {
+                "day": 5,
+                "title": "Serengeti to Ngorongoro Conservation Area",
+                "description": "Morning game drive in Serengeti followed by transfer to Ngorongoro Conservation Area with stunning crater views."
+            },
+            {
+                "day": 6,
+                "title": "Ngorongoro Crater Tour",
+                "description": "Descend into the Ngorongoro Crater for a half-day game drive. Spot rhinos, lions, hippos and many bird species."
+            },
+            {
+                "day": 7,
+                "title": "Ngorongoro to Arusha – Departure",
+                "description": "After breakfast, drive back to Arusha where your safari ends with transfer to the airport or hotel."
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "camping-6days",
+        "title": "6-Day Budget Camping Safari",
+        "route": "Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/serengeti.jpg",
+        "category": "safari",
+        "type": "camping",
+        "days": 6,
+        "price": "From $1,550",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Upon arrival at Kilimanjaro International Airport, you will be met by our representative and transferred to your hotel in Arusha for safari briefing and overnight stay."
+            },
+            {
+                "day": 2,
+                "title": "Arusha to Tarangire National Park",
+                "description": "After breakfast, drive to Tarangire National Park for game drives. The park is famous for its large elephant herds and ancient baobab trees."
+            },
+            {
+                "day": 3,
+                "title": "Tarangire to Serengeti National Park",
+                "description": "Depart Tarangire and drive through the scenic Ngorongoro highlands to Serengeti National Park for afternoon game viewing."
+            },
+            {
+                "day": 4,
+                "title": "Full Day Serengeti Game Drives",
+                "description": "Enjoy a full day of game drives in Serengeti, home to the Big Five and the famous wildebeest migration."
+            },
+            {
+                "day": 5,
+                "title": "Serengeti to Ngorongoro Conservation Area",
+                "description": "Morning game drive in Serengeti followed by transfer to Ngorongoro Conservation Area with stunning crater views."
+            },
+            {
+                "day": 6,
+                "title": "Ngorongoro Crater Tour",
+                "description": "Descend into the Ngorongoro Crater for a half-day game drive. Spot rhinos, lions, hippos and many bird species."
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "midrange-6days",
+        "title": "6-Day Tanzania Midrange Safari",
+        "route": "Arusha, Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/tarangire3.jpg",
+        "category": "safari",
+        "type": "midrange",
+        "days": 6,
+        "price": "From $2,450",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "midrange-6days",
+        "title": "6-Day Tanzania Midrange Safari",
+        "route": "Arusha, Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/tarangire3.jpg",
+        "category": "safari",
+        "type": "midrange",
+        "days": 6,
+        "price": "From $2,450",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "midrange-6days",
+        "title": "6-Day Tanzania Midrange Safari",
+        "route": "Arusha, Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/tarangire3.jpg",
+        "category": "safari",
+        "type": "midrange",
+        "days": 6,
+        "price": "From $2,450",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "midrange-6days",
+        "title": "6-Day Tanzania Midrange Safari",
+        "route": "Arusha, Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/tarangire3.jpg",
+        "category": "safari",
+        "type": "midrange",
+        "days": 6,
+        "price": "From $2,450",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "midrange-6days",
+        "title": "6-Day Tanzania Midrange Safari",
+        "route": "Arusha, Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/tarangire3.jpg",
+        "category": "safari",
+        "type": "midrange",
+        "days": 6,
+        "price": "From $2,450",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "midrange-6days",
+        "title": "6-Day Tanzania Midrange Safari",
+        "route": "Arusha, Tarangire, Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/tarangire3.jpg",
+        "category": "safari",
+        "type": "midrange",
+        "days": 6,
+        "price": "From $2,450",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "luxury-5days",
+        "title": "5-Day Luxury Tanzania Safari",
+        "route": "Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/serengeti5.jpg",
+        "category": "safari",
+        "type": "luxury",
+        "days": 5,
+        "price": "From $3,800",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "luxury-5days",
+        "title": "5-Day Luxury Tanzania Safari",
+        "route": "Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/luxury1.jpg",
+        "category": "safari",
+        "type": "luxury",
+        "days": 5,
+        "price": "From $3,800",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "luxury-5days",
+        "title": "5-Day Luxury Tanzania Safari",
+        "route": "Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/luxury3.jpg",
+        "category": "safari",
+        "type": "luxury",
+        "days": 5,
+        "price": "From $3,800",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "luxury-5days",
+        "title": "5-Day Luxury Tanzania Safari",
+        "route": "Serengeti & Ngorongoro",
+        "image": "..\/assets\/images\/luxury3.jpg",
+        "category": "safari",
+        "type": "luxury",
+        "days": 5,
+        "price": "From $3,800",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "tarangire national park",
+            "serengeti national park",
+            "ngoronoro creator"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "migration-7days",
+        "title": "7-Day Serengeti Migration Safari",
+        "route": "Serengeti National Park",
+        "image": "..\/assets\/images\/migration.jpg",
+        "category": "safari",
+        "type": "migration",
+        "days": 7,
+        "price": "From $4,200",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "serengeti national park"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "migration-7days",
+        "title": "7-Day Serengeti Migration Safari",
+        "route": "Serengeti National Park",
+        "image": "..\/assets\/images\/migration2.jpg",
+        "category": "safari",
+        "type": "migration",
+        "days": 7,
+        "price": "From $4,200",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "serengeti national park"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "migration-7days",
+        "title": "7-Day Serengeti Migration Safari",
+        "route": "Serengeti National Park",
+        "image": "..\/assets\/images\/migration4.jpg",
+        "category": "safari",
+        "type": "migration",
+        "days": 7,
+        "price": "From $4,200",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "serengeti national park"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "migration-7days",
+        "title": "7-Day Serengeti Migration Safari",
+        "route": "Serengeti National Park",
+        "image": "..\/assets\/images\/migration4.jpg",
+        "category": "safari",
+        "type": "migration",
+        "days": 7,
+        "price": "From $4,200",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "serengeti national park"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Arrival in Arusha",
+                "description": "Arrival and briefing"
+            },
+            {
+                "day": 2,
+                "title": "Tarangire National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 3,
+                "title": "Serengeti National Park",
+                "description": "Game drives"
+            },
+            {
+                "day": 4,
+                "title": "Full Serengeti",
+                "description": "Full day game viewing"
+            },
+            {
+                "day": 5,
+                "title": "Ngorongoro Crater",
+                "description": "Crater tour"
+            },
+            {
+                "day": 6,
+                "title": "Departure",
+                "description": "Return to Arusha"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "kili-machame",
+        "title": "Mount Kilimanjaro Machame Route",
+        "route": "Mount Kilimanjaro",
+        "image": "..\/assets\/images\/kili2.jpg",
+        "category": "climbing",
+        "type": "kilimanjaro",
+        "days": 7,
+        "price": "From $2,100",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "serengeti national park"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Machame Gate",
+                "description": "Start climbing"
+            },
+            {
+                "day": 2,
+                "title": "Shira Camp",
+                "description": "Acclimatization"
+            },
+            {
+                "day": 3,
+                "title": "Barranco Camp",
+                "description": "Scenic climb"
+            },
+            {
+                "day": 4,
+                "title": "Karanga Camp",
+                "description": "Short hike"
+            },
+            {
+                "day": 5,
+                "title": "Barafu Camp",
+                "description": "Summit preparation"
+            },
+            {
+                "day": 6,
+                "title": "Uhuru Peak",
+                "description": "Summit and descend"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Transfer back"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "kili-machame",
+        "title": "Mount Kilimanjaro Machame Route",
+        "route": "Mount Kilimanjaro",
+        "image": "..\/assets\/images\/kili2.jpg",
+        "category": "climbing",
+        "type": "kilimanjaro",
+        "days": 7,
+        "price": "From $2,100",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "serengeti national park"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Machame Gate",
+                "description": "Start climbing"
+            },
+            {
+                "day": 2,
+                "title": "Shira Camp",
+                "description": "Acclimatization"
+            },
+            {
+                "day": 3,
+                "title": "Barranco Camp",
+                "description": "Scenic climb"
+            },
+            {
+                "day": 4,
+                "title": "Karanga Camp",
+                "description": "Short hike"
+            },
+            {
+                "day": 5,
+                "title": "Barafu Camp",
+                "description": "Summit preparation"
+            },
+            {
+                "day": 6,
+                "title": "Uhuru Peak",
+                "description": "Summit and descend"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Transfer back"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "kili-machame",
+        "title": "Mount Kilimanjaro Machame Route",
+        "route": "Mount Kilimanjaro",
+        "image": "..\/assets\/images\/kilimanjaro11.jpg",
+        "category": "climbing",
+        "type": "kilimanjaro",
+        "days": 7,
+        "price": "From $2,100",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "serengeti national park"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Machame Gate",
+                "description": "Start climbing"
+            },
+            {
+                "day": 2,
+                "title": "Shira Camp",
+                "description": "Acclimatization"
+            },
+            {
+                "day": 3,
+                "title": "Barranco Camp",
+                "description": "Scenic climb"
+            },
+            {
+                "day": 4,
+                "title": "Karanga Camp",
+                "description": "Short hike"
+            },
+            {
+                "day": 5,
+                "title": "Barafu Camp",
+                "description": "Summit preparation"
+            },
+            {
+                "day": 6,
+                "title": "Uhuru Peak",
+                "description": "Summit and descend"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Transfer back"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "kili-machame",
+        "title": "Mount Kilimanjaro Machame Route",
+        "route": "Mount Kilimanjaro",
+        "image": "..\/assets\/images\/kilimanjaro6.jpg",
+        "category": "climbing",
+        "type": "kilimanjaro",
+        "days": 7,
+        "price": "From $2,100",
+        "overview": "This Tanzania camping trip lasts for 7 days and lets you see the\r\n                        best parts of the Northern Safari Circuit. You will see monkeys in the forest,\r\n                        lions in the trees, elephants among acacias, and a huge variety of animals \r\n                        inside a collapsed volcano. You will also go to Serengeti National Park, \r\n                        which is known all over the world. The landscapes are breathtaking, and \r\n                        the amount and variety of wildlife you will see will stay with you forever. The best.",
+        "destinations": [
+            "serengeti national park"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466,
+            "6": 3466,
+            "7": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Machame Gate",
+                "description": "Start climbing"
+            },
+            {
+                "day": 2,
+                "title": "Shira Camp",
+                "description": "Acclimatization"
+            },
+            {
+                "day": 3,
+                "title": "Barranco Camp",
+                "description": "Scenic climb"
+            },
+            {
+                "day": 4,
+                "title": "Karanga Camp",
+                "description": "Short hike"
+            },
+            {
+                "day": 5,
+                "title": "Barafu Camp",
+                "description": "Summit preparation"
+            },
+            {
+                "day": 6,
+                "title": "Uhuru Peak",
+                "description": "Summit and descend"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Transfer back"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "meru-4days",
+        "title": "4-Day Mount Meru Trek",
+        "route": "Mount Meru",
+        "image": "assets\/images\/mount-meru.jpg",
+        "category": "climbing",
+        "type": "meru",
+        "days": 4,
+        "price": "From $1,200"
+    },
+    {
+        "id": "zanzibar1",
+        "title": "ZANZIBAR ISLAND",
+        "route": "The Zanzibar archipelago is one of the most historic Indian Ocean islands, awash with atmosphere, intrigue, and idyllic beach experiences. ",
+        "image": "..\/assets\/images\/zanzibar\/zanzibar6.jpg",
+        "category": "swimming",
+        "type": "island",
+        "days": 7,
+        "price": "From $2,100",
+        "overview": "The journey begins in **Stone Town**, \r\n                         a UNESCO World Heritage site. Walking through its narrow,\r\n                         winding alleys is like stepping back in time. \r\n                         You are greeted by the scent of cloves and cinnamon, \r\n                         and the sight of magnificent, intricately carved wooden doors that tell stories of Arabic,\r\n                         Indian, and African heritage.",
+        "destinations": [
+            "Zanzibar",
+            "mafia island",
+            "pemba island"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Machame Gate",
+                "description": "Start climbing"
+            },
+            {
+                "day": 2,
+                "title": "Shira Camp",
+                "description": "Acclimatization"
+            },
+            {
+                "day": 3,
+                "title": "Barranco Camp",
+                "description": "Scenic climb"
+            },
+            {
+                "day": 4,
+                "title": "Karanga Camp",
+                "description": "Short hike"
+            },
+            {
+                "day": 5,
+                "title": "Barafu Camp",
+                "description": "Summit preparation"
+            },
+            {
+                "day": 6,
+                "title": "Uhuru Peak",
+                "description": "Summit and descend"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Transfer back"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "zanzibar1",
+        "title": "PEMBA",
+        "route": "Pemba Island is part of Tanzania's Zanzibar Archipelago, off the coast of East Africa. It's known for its lush, green hills and clove plantations. ",
+        "image": "..\/assets\/images\/zanzibar\/zanzibar6.jpg",
+        "category": "swimming",
+        "type": "island",
+        "days": 7,
+        "price": "From $2,100",
+        "overview": "The journey begins in **Stone Town**, \r\n                         a UNESCO World Heritage site. Walking through its narrow,\r\n                         winding alleys is like stepping back in time. \r\n                         You are greeted by the scent of cloves and cinnamon, \r\n                         and the sight of magnificent, intricately carved wooden doors that tell stories of Arabic,\r\n                         Indian, and African heritage.",
+        "destinations": [
+            "Zanzibar",
+            "mafia island",
+            "pemba island"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Machame Gate",
+                "description": "Start climbing"
+            },
+            {
+                "day": 2,
+                "title": "Shira Camp",
+                "description": "Acclimatization"
+            },
+            {
+                "day": 3,
+                "title": "Barranco Camp",
+                "description": "Scenic climb"
+            },
+            {
+                "day": 4,
+                "title": "Karanga Camp",
+                "description": "Short hike"
+            },
+            {
+                "day": 5,
+                "title": "Barafu Camp",
+                "description": "Summit preparation"
+            },
+            {
+                "day": 6,
+                "title": "Uhuru Peak",
+                "description": "Summit and descend"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Transfer back"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "zanzibar1",
+        "title": "MAFIA",
+        "route": "Mafia Island is part of Tanzania's Mafia Archipelago, in the Indian Ocean. Large swaths of the island's southern coastline and surrounding ",
+        "image": "..\/assets\/images\/zanzibar\/zanzibar6.jpg",
+        "category": "swimming",
+        "type": "island",
+        "days": 7,
+        "price": "From $2,100",
+        "overview": "The journey begins in **Stone Town**, \r\n                         a UNESCO World Heritage site. Walking through its narrow,\r\n                         winding alleys is like stepping back in time. \r\n                         You are greeted by the scent of cloves and cinnamon, \r\n                         and the sight of magnificent, intricately carved wooden doors that tell stories of Arabic,\r\n                         Indian, and African heritage.",
+        "destinations": [
+            "Zanzibar",
+            "mafia island",
+            "pemba island"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Machame Gate",
+                "description": "Start climbing"
+            },
+            {
+                "day": 2,
+                "title": "Shira Camp",
+                "description": "Acclimatization"
+            },
+            {
+                "day": 3,
+                "title": "Barranco Camp",
+                "description": "Scenic climb"
+            },
+            {
+                "day": 4,
+                "title": "Karanga Camp",
+                "description": "Short hike"
+            },
+            {
+                "day": 5,
+                "title": "Barafu Camp",
+                "description": "Summit preparation"
+            },
+            {
+                "day": 6,
+                "title": "Uhuru Peak",
+                "description": "Summit and descend"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Transfer back"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    },
+    {
+        "id": "zanzibar1",
+        "title": "UNGUJA",
+        "route": "DGDFGDFGDFGDFG",
+        "image": "..\/assets\/images\/zanzibar\/zanzibar6.jpg",
+        "category": "swimming",
+        "type": "island",
+        "days": 7,
+        "price": "From $2,100",
+        "overview": "The journey begins in **Stone Town**, \r\n                         a UNESCO World Heritage site. Walking through its narrow,\r\n                         winding alleys is like stepping back in time. \r\n                         You are greeted by the scent of cloves and cinnamon, \r\n                         and the sight of magnificent, intricately carved wooden doors that tell stories of Arabic,\r\n                         Indian, and African heritage.",
+        "destinations": [
+            "Zanzibar",
+            "mafia island",
+            "pemba island"
+        ],
+        "pricing_table": {
+            "1": 3466,
+            "2": 3466,
+            "3": 3466,
+            "4": 3466,
+            "5": 3466
+        },
+        "itinerary": [
+            {
+                "day": 1,
+                "title": "Machame Gate",
+                "description": "Start climbing"
+            },
+            {
+                "day": 2,
+                "title": "Shira Camp",
+                "description": "Acclimatization"
+            },
+            {
+                "day": 3,
+                "title": "Barranco Camp",
+                "description": "Scenic climb"
+            },
+            {
+                "day": 4,
+                "title": "Karanga Camp",
+                "description": "Short hike"
+            },
+            {
+                "day": 5,
+                "title": "Barafu Camp",
+                "description": "Summit preparation"
+            },
+            {
+                "day": 6,
+                "title": "Uhuru Peak",
+                "description": "Summit and descend"
+            },
+            {
+                "day": 7,
+                "title": "Departure",
+                "description": "Transfer back"
+            }
+        ],
+        "inclusions": [
+            "park fees",
+            "camping equipment",
+            "professional guide",
+            "all meals"
+        ],
+        "exclusions": [
+            "internatinal flights",
+            "tips",
+            "personal items"
+        ]
+    }
+]

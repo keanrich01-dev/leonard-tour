@@ -1,0 +1,25 @@
+from sqlalchemy import create_engine
+from sqlalchemy.orm import DeclarativeBase, sessionmaker
+
+from app.core.config import settings
+
+engine = create_engine(
+    settings.database_url,
+    pool_pre_ping=True,
+    # Neon pooled URLs use PgBouncer transaction pooling; disable per-session
+    # prepared statements so pooled connections never depend on server-session state.
+    connect_args={"prepare_threshold": None},
+)
+SessionLocal = sessionmaker(bind=engine, expire_on_commit=False)
+
+
+class Base(DeclarativeBase):
+    pass
+
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()

@@ -1,0 +1,212 @@
+"""Customer-facing email texts in 5 languages.
+
+IMPORTANT: Kiswahili, Français, 中文 (Simplified) and 한국어 were drafted by an AI assistant.
+They must be reviewed by a native speaker before going live (see `needs_review` in README).
+Placeholders in {braces} are filled in by the builders; keep them intact when editing.
+"""
+
+COMMON_KEYS = ("greeting", "team", "help", "reference", "package", "travel_date", "adults", "children", "total",
+               "deposit_due", "paid_so_far", "balance_due", "amount_paid", "payment_method", "payment_date",
+               "status", "status_pending", "status_confirmed", "status_cancelled", "method_card",
+               "method_mobile_money", "view_booking")
+
+MESSAGES: dict[str, dict] = {
+    "en": {
+        "common": {
+            "greeting": "Hello {name},", "team": "The {company} team",
+            "help": "Questions? Just reply to this email or contact us at {contact}.",
+            "reference": "Booking reference", "package": "Tour", "travel_date": "Travel date",
+            "adults": "Adults", "children": "Children", "total": "Total", "deposit_due": "Deposit due",
+            "paid_so_far": "Paid so far", "balance_due": "Balance due", "amount_paid": "Amount paid",
+            "payment_method": "Payment method", "payment_date": "Payment date", "status": "Status",
+            "status_pending": "Awaiting payment", "status_confirmed": "Confirmed", "status_cancelled": "Cancelled",
+            "method_card": "Card", "method_mobile_money": "Mobile Money", "view_booking": "View your booking",
+        },
+        "booking_created": {
+            "subject": "Your booking request {reference} – {company}",
+            "preheader": "We have received your request. Pay the deposit to confirm your trip.",
+            "intro": "Thank you for choosing {company}! We have received your booking request for “{package}”.",
+            "pending_notice": "Your booking will be confirmed as soon as the deposit of {deposit} has been paid.",
+            "cta": "Complete payment",
+        },
+        "payment_received": {
+            "subject": "Payment received – booking {reference}",
+            "preheader": "Thank you! We have received your payment.",
+            "intro": "We have received your payment of {amount} for booking {reference}. Thank you!",
+            "confirmed_notice": "Your booking is now confirmed. We will contact you about the trip preparations.",
+            "balance_notice": "Remaining balance: {balance}. You can pay it at any time using the link below.",
+            "fully_paid_notice": "Your booking is fully paid.",
+            "cta": "View your booking",
+        },
+        "booking_cancelled": {
+            "subject": "Booking {reference} cancelled",
+            "preheader": "Your booking has been cancelled.",
+            "intro": "Your booking {reference} for “{package}” has been cancelled.",
+            "refund_notice": "If you have already made a payment, our team will contact you about it.",
+        },
+        "balance_reminder": {
+            "subject": "Reminder: balance for booking {reference}",
+            "preheader": "Your trip is coming up. Please pay the remaining balance.",
+            "intro": "Your trip “{package}” on {date} is coming up. A balance of {balance} is still due.",
+            "cta": "Pay the balance",
+        },
+    },
+    "sw": {
+        "common": {
+            "greeting": "Mpendwa {name},", "team": "Timu ya {company}",
+            "help": "Una maswali? Jibu barua pepe hii au wasiliana nasi kupitia {contact}.",
+            "reference": "Namba ya uhifadhi", "package": "Safari", "travel_date": "Tarehe ya safari",
+            "adults": "Watu wazima", "children": "Watoto", "total": "Jumla", "deposit_due": "Amana inayodaiwa",
+            "paid_so_far": "Kiasi kilicholipwa", "balance_due": "Salio linalodaiwa", "amount_paid": "Kiasi kilicholipwa sasa",
+            "payment_method": "Njia ya malipo", "payment_date": "Tarehe ya malipo", "status": "Hali",
+            "status_pending": "Inasubiri malipo", "status_confirmed": "Imethibitishwa", "status_cancelled": "Imeghairiwa",
+            "method_card": "Kadi", "method_mobile_money": "Pesa ya simu (Mobile Money)", "view_booking": "Tazama uhifadhi wako",
+        },
+        "booking_created": {
+            "subject": "Ombi lako la uhifadhi {reference} – {company}",
+            "preheader": "Tumepokea ombi lako. Lipa amana ili kuthibitisha safari yako.",
+            "intro": "Asante kwa kuchagua {company}! Tumepokea ombi lako la uhifadhi wa “{package}”.",
+            "pending_notice": "Uhifadhi wako utathibitishwa mara tu amana ya {deposit} itakapolipwa.",
+            "cta": "Kamilisha malipo",
+        },
+        "payment_received": {
+            "subject": "Malipo yamepokelewa – uhifadhi {reference}",
+            "preheader": "Asante! Tumepokea malipo yako.",
+            "intro": "Tumepokea malipo yako ya {amount} kwa uhifadhi {reference}. Asante!",
+            "confirmed_notice": "Uhifadhi wako sasa umethibitishwa. Tutawasiliana nawe kuhusu maandalizi ya safari.",
+            "balance_notice": "Salio linalodaiwa: {balance}. Unaweza kulipa wakati wowote kupitia kiungo kilicho hapa chini.",
+            "fully_paid_notice": "Uhifadhi wako umelipwa kikamilifu.",
+            "cta": "Tazama uhifadhi wako",
+        },
+        "booking_cancelled": {
+            "subject": "Uhifadhi {reference} umeghairiwa",
+            "preheader": "Uhifadhi wako umeghairiwa.",
+            "intro": "Uhifadhi wako {reference} wa “{package}” umeghairiwa.",
+            "refund_notice": "Ikiwa ulikwisha kulipa, timu yetu itawasiliana nawe kuhusu malipo hayo.",
+        },
+        "balance_reminder": {
+            "subject": "Kikumbusho: salio la uhifadhi {reference}",
+            "preheader": "Safari yako inakaribia. Tafadhali lipa salio lililobaki.",
+            "intro": "Safari yako ya “{package}” ya tarehe {date} inakaribia. Salio la {balance} bado linadaiwa.",
+            "cta": "Lipa salio",
+        },
+    },
+    "fr": {
+        "common": {
+            "greeting": "Bonjour {name},", "team": "L’équipe {company}",
+            "help": "Une question ? Répondez simplement à cet e-mail ou contactez-nous : {contact}.",
+            "reference": "Référence de réservation", "package": "Circuit", "travel_date": "Date de voyage",
+            "adults": "Adultes", "children": "Enfants", "total": "Total", "deposit_due": "Acompte à régler",
+            "paid_so_far": "Déjà réglé", "balance_due": "Solde restant dû", "amount_paid": "Montant payé",
+            "payment_method": "Moyen de paiement", "payment_date": "Date du paiement", "status": "Statut",
+            "status_pending": "En attente de paiement", "status_confirmed": "Confirmée", "status_cancelled": "Annulée",
+            "method_card": "Carte bancaire", "method_mobile_money": "Mobile Money", "view_booking": "Voir ma réservation",
+        },
+        "booking_created": {
+            "subject": "Votre demande de réservation {reference} – {company}",
+            "preheader": "Nous avons bien reçu votre demande. Réglez l’acompte pour confirmer votre voyage.",
+            "intro": "Merci d’avoir choisi {company} ! Nous avons bien reçu votre demande de réservation pour « {package} ».",
+            "pending_notice": "Votre réservation sera confirmée dès que l’acompte de {deposit} aura été réglé.",
+            "cta": "Finaliser le paiement",
+        },
+        "payment_received": {
+            "subject": "Paiement reçu – réservation {reference}",
+            "preheader": "Merci ! Nous avons bien reçu votre paiement.",
+            "intro": "Nous avons bien reçu votre paiement de {amount} pour la réservation {reference}. Merci !",
+            "confirmed_notice": "Votre réservation est désormais confirmée. Nous vous contacterons pour les préparatifs du voyage.",
+            "balance_notice": "Solde restant dû : {balance}. Vous pouvez le régler à tout moment via le lien ci-dessous.",
+            "fully_paid_notice": "Votre réservation est entièrement réglée.",
+            "cta": "Voir ma réservation",
+        },
+        "booking_cancelled": {
+            "subject": "Réservation {reference} annulée",
+            "preheader": "Votre réservation a été annulée.",
+            "intro": "Votre réservation {reference} pour « {package} » a été annulée.",
+            "refund_notice": "Si vous avez déjà effectué un paiement, notre équipe vous contactera à ce sujet.",
+        },
+        "balance_reminder": {
+            "subject": "Rappel : solde de la réservation {reference}",
+            "preheader": "Votre voyage approche. Merci de régler le solde.",
+            "intro": "Votre voyage « {package} » du {date} approche. Un solde de {balance} reste à régler.",
+            "cta": "Régler le solde",
+        },
+    },
+    "zh": {
+        "common": {
+            "greeting": "尊敬的{name}：", "team": "{company}团队",
+            "help": "如有任何疑问，请直接回复此邮件，或通过 {contact} 联系我们。",
+            "reference": "预订编号", "package": "行程", "travel_date": "出发日期", "adults": "成人", "children": "儿童",
+            "total": "总金额", "deposit_due": "应付定金", "paid_so_far": "已付金额", "balance_due": "待付余额",
+            "amount_paid": "本次支付金额", "payment_method": "支付方式", "payment_date": "支付日期", "status": "状态",
+            "status_pending": "待付款", "status_confirmed": "已确认", "status_cancelled": "已取消",
+            "method_card": "银行卡", "method_mobile_money": "移动支付 (Mobile Money)", "view_booking": "查看预订",
+        },
+        "booking_created": {
+            "subject": "您的预订申请 {reference} – {company}",
+            "preheader": "我们已收到您的预订申请。支付定金后即可确认行程。",
+            "intro": "感谢您选择{company}！我们已收到您对“{package}”的预订申请。",
+            "pending_notice": "支付定金 {deposit} 后，您的预订才会被确认。",
+            "cta": "完成支付",
+        },
+        "payment_received": {
+            "subject": "已收到付款 – 预订 {reference}",
+            "preheader": "谢谢！我们已收到您的付款。",
+            "intro": "我们已收到您为预订 {reference} 支付的 {amount}。谢谢！",
+            "confirmed_notice": "您的预订现已确认。我们将就行程准备事宜与您联系。",
+            "balance_notice": "待付余额：{balance}。您可随时通过下方链接支付。",
+            "fully_paid_notice": "您的预订已全额付清。",
+            "cta": "查看预订",
+        },
+        "booking_cancelled": {
+            "subject": "预订 {reference} 已取消",
+            "preheader": "您的预订已被取消。",
+            "intro": "您对“{package}”的预订 {reference} 已被取消。",
+            "refund_notice": "如果您已付款，我们的团队将就相关款项与您联系。",
+        },
+        "balance_reminder": {
+            "subject": "提醒：预订 {reference} 的余额",
+            "preheader": "您的行程即将开始，请尽快支付余额。",
+            "intro": "您的“{package}”行程将于 {date} 出发，仍有 {balance} 余额待付。",
+            "cta": "支付余额",
+        },
+    },
+    "ko": {
+        "common": {
+            "greeting": "{name}님께,", "team": "{company} 팀",
+            "help": "궁금한 점이 있으시면 이 이메일에 회신하시거나 {contact}(으)로 문의해 주세요.",
+            "reference": "예약 번호", "package": "투어", "travel_date": "여행 날짜", "adults": "성인", "children": "아동",
+            "total": "총 금액", "deposit_due": "납부할 보증금", "paid_so_far": "결제 완료 금액", "balance_due": "남은 금액",
+            "amount_paid": "이번 결제 금액", "payment_method": "결제 수단", "payment_date": "결제 일자", "status": "상태",
+            "status_pending": "결제 대기", "status_confirmed": "확정", "status_cancelled": "취소됨",
+            "method_card": "카드", "method_mobile_money": "모바일 머니 (Mobile Money)", "view_booking": "예약 보기",
+        },
+        "booking_created": {
+            "subject": "예약 요청 {reference} 접수 – {company}",
+            "preheader": "예약 요청을 받았습니다. 보증금을 결제하시면 예약이 확정됩니다.",
+            "intro": "{company}을(를) 선택해 주셔서 감사합니다! “{package}” 예약 요청을 접수했습니다.",
+            "pending_notice": "보증금 {deposit}이(가) 결제되면 예약이 확정됩니다.",
+            "cta": "결제 완료하기",
+        },
+        "payment_received": {
+            "subject": "결제 완료 – 예약 {reference}",
+            "preheader": "감사합니다! 결제가 확인되었습니다.",
+            "intro": "예약 {reference}에 대한 {amount} 결제를 확인했습니다. 감사합니다!",
+            "confirmed_notice": "예약이 확정되었습니다. 여행 준비에 관해 곧 연락드리겠습니다.",
+            "balance_notice": "남은 금액: {balance}. 아래 링크에서 언제든지 결제하실 수 있습니다.",
+            "fully_paid_notice": "예약 금액이 전액 결제되었습니다.",
+            "cta": "예약 보기",
+        },
+        "booking_cancelled": {
+            "subject": "예약 {reference}이(가) 취소되었습니다",
+            "preheader": "예약이 취소되었습니다.",
+            "intro": "“{package}” 예약 {reference}이(가) 취소되었습니다.",
+            "refund_notice": "이미 결제하셨다면, 해당 결제에 관해 저희 팀이 연락드리겠습니다.",
+        },
+        "balance_reminder": {
+            "subject": "안내: 예약 {reference} 잔금 결제",
+            "preheader": "여행 일정이 다가오고 있습니다. 잔금을 결제해 주세요.",
+            "intro": "{date} 출발 예정인 “{package}” 여행의 잔금 {balance}이(가) 아직 남아 있습니다.",
+            "cta": "잔금 결제하기",
+        },
+    },
+}

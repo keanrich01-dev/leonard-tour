@@ -1,0 +1,57 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Node
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Backups and runtime data
+backups/
+**/backups/
+*.rdb
+outbox/
+**/outbox/
+
+# System files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Older project snapshot - excluded from deployment
+6d85f/
+!.env.production.example
+!**/.env.production.example
+venv/
+**/venv/
+frontend/dist/
+*.pyc
+htmlcov/
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa*
+*.log
