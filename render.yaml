@@ -71,18 +71,18 @@ services:
         value: "14"
       - key: MEDIA_STORAGE_BACKEND
         value: r2
-      - key: https://pub-5f857f14b295474580e3c827775438c2.r2.dev
+      - key: -MEDIA_PUBLIC_URL
         sync: false
-      - key: 535f958557df1d8a76db74ee040ad179
+      - key: R2_ACCOUNT_ID
         sync: false
-      - key: 9386c27d22e9d5d1eb77a87f196efeae
+      - key: R2_ACCESS_KEY_ID
         sync: false
-      - key: 20366ca09728aa540369145fbc9561b387f7a39b5a5e15b4b557aa8dc47a43c2
+      - key: R2_SECRET_ACCESS_KEY
         sync: false
       - key: leonard-tour-media
         sync: false
 
-  - type: worker
+   - type: worker
     name: leonard-tour-worker
     runtime: docker
     plan: starter
@@ -91,69 +91,86 @@ services:
     dockerContext: ./backend
     dockerCommand: celery -A app.worker.celery_app worker -B -l info
     envVars:
-      - key: postgresql://neondb_owner:npg_eVlLM3EGb2nT@ep-crimson-star-az3l99so-pooler.c-3.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+      - key: DATABASE_URL
         fromService:
           type: web
           name: leonard-tour-api
-          envVarKey: postgresql://neondb_owner:npg_eVlLM3EGb2nT@ep-crimson-star-az3l99so-pooler.c-3.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+          envVarKey: DATABASE_URL
+
       - key: REDIS_URL
         fromService:
           type: web
           name: leonard-tour-api
-          envVarKey: redis-cli --tls -u redis://default:gQAAAAAAAkl_AAIgcDJhZGIzNjJhNDU5M2M0ZWM3YmY2OTUzZTk0ZWE2YTJmMQ@relevant-rattler-149887.upstash.io:6379
+          envVarKey: REDIS_URL
+
       - key: SECRET_KEY
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: SECRET_KEY
+
       - key: EMAIL_BACKEND
         value: smtp
+
       - key: SMTP_HOST
         fromService:
           type: web
           name: leonard-tour-api
-          envVarKey: smtp.gmail.com
+          envVarKey: SMTP_HOST
+
       - key: SMTP_PORT
         value: "587"
+
       - key: SMTP_STARTTLS
         value: "true"
+
       - key: SMTP_SSL
         value: "false"
-      - key: nkwerakean@gmail.com
+
+      - key: SMTP_USER
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: SMTP_USER
+
       - key: SMTP_PASSWORD
         fromService:
           type: web
           name: leonard-tour-api
-          envVarKey: vtzd llex zbqi moza 
-      - key: nkwerakean@gmail.com
+          envVarKey: SMTP_PASSWORD
+
+      - key: EMAIL_FROM
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: EMAIL_FROM
+
       - key: EMAIL_FROM_NAME
         value: Leonard Tour
-      - key: nkwerakean@gmail.com
+
+      - key: EMAIL_REPLY_TO
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: EMAIL_REPLY_TO
-      - key: nkwerakean@gmail.com
+
+      - key: ADMIN_NOTIFY_EMAILS
         fromService:
           type: web
           name: leonard-tour-api
-          envVarKey: nkwerakean@gmail.com
+          envVarKey: ADMIN_NOTIFY_EMAILS
+
       - key: COMPANY_NAME
         value: Leonard Tour
+
       - key: COMPANY_CONTACT
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: COMPANY_CONTACT
+
       - key: CELERY_EAGER
         value: "false"
+
       - key: BALANCE_REMINDER_DAYS
         value: "14"
