@@ -30,7 +30,7 @@ services:
       - key: PESAPAL_CONSUMER_SECRET
         sync: false
       - key: PESAPAL_BASE_URL
-        value: https://pay.pesapal.com/pesapalv3
+        value: "https://pay.pesapal.com/pesapalv3"
       - key: PUBLIC_API_URL
         sync: false
       - key: FRONTEND_URL
@@ -71,7 +71,7 @@ services:
         value: "14"
       - key: MEDIA_STORAGE_BACKEND
         value: r2
-      - key: -MEDIA_PUBLIC_URL
+      - key: MEDIA_PUBLIC_URL
         sync: false
       - key: R2_ACCOUNT_ID
         sync: false
@@ -79,10 +79,10 @@ services:
         sync: false
       - key: R2_SECRET_ACCESS_KEY
         sync: false
-      - key: leonard-tour-media
-        sync: false
+      - key: R2_BUCKET
+        value: leonard-tour-media
 
-   - type: worker
+  - type: worker
     name: leonard-tour-worker
     runtime: docker
     plan: starter
@@ -96,81 +96,64 @@ services:
           type: web
           name: leonard-tour-api
           envVarKey: DATABASE_URL
-
       - key: REDIS_URL
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: REDIS_URL
-
       - key: SECRET_KEY
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: SECRET_KEY
-
       - key: EMAIL_BACKEND
         value: smtp
-
       - key: SMTP_HOST
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: SMTP_HOST
-
       - key: SMTP_PORT
         value: "587"
-
       - key: SMTP_STARTTLS
         value: "true"
-
       - key: SMTP_SSL
         value: "false"
-
       - key: SMTP_USER
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: SMTP_USER
-
       - key: SMTP_PASSWORD
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: SMTP_PASSWORD
-
       - key: EMAIL_FROM
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: EMAIL_FROM
-
       - key: EMAIL_FROM_NAME
         value: Leonard Tour
-
       - key: EMAIL_REPLY_TO
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: EMAIL_REPLY_TO
-
       - key: ADMIN_NOTIFY_EMAILS
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: ADMIN_NOTIFY_EMAILS
-
       - key: COMPANY_NAME
         value: Leonard Tour
-
       - key: COMPANY_CONTACT
         fromService:
           type: web
           name: leonard-tour-api
           envVarKey: COMPANY_CONTACT
-
       - key: CELERY_EAGER
         value: "false"
-
       - key: BALANCE_REMINDER_DAYS
         value: "14"
