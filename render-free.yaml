@@ -1,0 +1,83 @@
+services:
+  - type: web
+    name: leonard-tour-api
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    dockerCommand: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000}"
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: DIRECT_DATABASE_URL
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: TRUST_PROXY
+        value: "false"
+      - key: CORS_ORIGINS
+        sync: false
+      - key: PAYMENT_PROVIDER
+        value: pesapal
+      - key: PESAPAL_CONSUMER_KEY
+        sync: false
+      - key: PESAPAL_CONSUMER_SECRET
+        sync: false
+      - key: PESAPAL_BASE_URL
+        value: "https://pay.pesapal.com/pesapalv3"
+      - key: PUBLIC_API_URL
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: DEPOSIT_PERCENT
+        value: "30"
+      - key: CHILD_PRICE_FACTOR
+        value: "1.0"
+      - key: EMAIL_BACKEND
+        value: smtp
+      - key: SMTP_HOST
+        sync: false
+      - key: SMTP_PORT
+        value: "587"
+      - key: SMTP_STARTTLS
+        value: "true"
+      - key: SMTP_SSL
+        value: "false"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASSWORD
+        sync: false
+      - key: EMAIL_FROM
+        sync: false
+      - key: EMAIL_FROM_NAME
+        value: Leonard Tour
+      - key: EMAIL_REPLY_TO
+        sync: false
+      - key: ADMIN_NOTIFY_EMAILS
+        sync: false
+      - key: COMPANY_NAME
+        value: Leonard Tour
+      - key: COMPANY_CONTACT
+        sync: false
+      - key: CELERY_EAGER
+        value: "true"
+      - key: BALANCE_REMINDER_DAYS
+        value: "14"
+      - key: MEDIA_STORAGE_BACKEND
+        value: r2
+      - key: MEDIA_PUBLIC_URL
+        sync: false
+      - key: R2_ACCOUNT_ID
+        sync: false
+      - key: R2_ACCESS_KEY_ID
+        sync: false
+      - key: R2_SECRET_ACCESS_KEY
+        sync: false
+      - key: R2_BUCKET
+        value: leonard-tour-media
