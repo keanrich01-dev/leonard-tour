@@ -41,7 +41,7 @@ class PasswordIn(BaseModel):
 
 def _set_cookie(response: Response, token: str):
     response.set_cookie(COOKIE_NAME, token, httponly=True,
-                        secure=settings.cookie_secure, samesite="strict", path="/api/admin")
+                        secure=settings.cookie_secure, samesite="none", path="/api/admin")
 
 
 def _user_out(u: User, s: AuthSession | None = None) -> dict:
